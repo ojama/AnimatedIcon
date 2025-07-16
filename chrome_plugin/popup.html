@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<head>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+  <h3 data-i18n="popup_title"></h3>
+  <div class="row">
+    <label data-i18n="speed_label"></label><input id="speed" type="number" min="20" max="1000" value="120">
+  </div>
+  <div class="row">
+    <label data-i18n="start_frame_label"></label><input id="startFrame" type="number" min="1" max="12" value="1">
+  </div>
+  <div class="row">
+    <label data-i18n="end_frame_label"></label><input id="endFrame" type="number" min="1" max="12" value="12">
+  </div>
+  <div id="status" style="color: blue; margin-top: 8px;"></div>
+  <button id="saveBtn" data-i18n="save_btn"></button>
+  <button id="startAnimBtn" style="margin-top:15px;background:#2196F3;" data-i18n="start_anim_btn"></button>
+  <button id="resetBtn" style="margin-top:15px;background:#f44336;" data-i18n="reset_btn"></button>
+  <hr>
+  <h4 data-i18n="upload_title"></h4>
+  <div class="row">
+    <label data-i18n="choose_img_label"></label><input id="spriteFile" type="file" accept="image/*">
+  </div>
+  <div class="row">
+    <label data-i18n="frame_width_label"></label><input id="frameWidth" type="number" min="1" value="32">
+  </div>
+  <div class="row">
+    <label data-i18n="frame_height_label"></label><input id="frameHeight" type="number" min="1" value="32">
+  </div>
+  <button id="splitBtn" data-i18n="split_btn"></button>
+  <div id="splitStatus" style="color: blue; margin-top: 8px;"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

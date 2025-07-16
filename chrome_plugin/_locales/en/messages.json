@@ -1,0 +1,15 @@
+{
+  "popup_title": { "message": "Animation Settings" },
+  "speed_label": { "message": "Speed (ms/frame):" },
+  "start_frame_label": { "message": "Start Frame:" },
+  "end_frame_label": { "message": "End Frame:" },
+  "save_btn": { "message": "Save Settings" },
+  "reset_btn": { "message": "Reset to Default Animation" },
+  "upload_title": { "message": "Upload Sprite and Split" },
+  "choose_img_label": { "message": "Choose Image:" },
+  "frame_width_label": { "message": "Frame Width (px):" },
+  "frame_height_label": { "message": "Frame Height (px):" },
+  "split_btn": { "message": "Split and Save" },
+  "start_anim_btn": { "message": "Start Animation" },
+  "start_anim_status": { "message": "Animation started" }
+}

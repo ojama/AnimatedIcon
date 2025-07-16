@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Animated Icon",
+  "version": "1.0",
+  "description": "Show customizable animated icons in the browser toolbar. ",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "storage"
+  ]
+}

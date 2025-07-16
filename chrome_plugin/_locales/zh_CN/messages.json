@@ -1,0 +1,15 @@
+{
+  "popup_title": { "message": "动画设置" },
+  "speed_label": { "message": "播放速度(ms/帧):" },
+  "start_frame_label": { "message": "起始帧:" },
+  "end_frame_label": { "message": "结束帧:" },
+  "save_btn": { "message": "保存设置" },
+  "reset_btn": { "message": "重置为默认动画" },
+  "upload_title": { "message": "上传精灵图并切分" },
+  "choose_img_label": { "message": "选择图片:" },
+  "frame_width_label": { "message": "单帧宽度(px):" },
+  "frame_height_label": { "message": "单帧高度(px):" },
+  "split_btn": { "message": "切分并保存" },
+  "start_anim_btn": { "message": "开始播放" },
+  "start_anim_status": { "message": "动画已开始播放" }
+}

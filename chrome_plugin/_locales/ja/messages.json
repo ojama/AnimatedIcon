@@ -1,0 +1,15 @@
+{
+  "popup_title": { "message": "アニメーション設定" },
+  "speed_label": { "message": "速度 (ms/フレーム):" },
+  "start_frame_label": { "message": "開始フレーム:" },
+  "end_frame_label": { "message": "終了フレーム:" },
+  "save_btn": { "message": "設定を保存" },
+  "reset_btn": { "message": "デフォルトアニメにリセット" },
+  "upload_title": { "message": "スプライトをアップロードして分割" },
+  "choose_img_label": { "message": "画像を選択:" },
+  "frame_width_label": { "message": "フレーム幅(px):" },
+  "frame_height_label": { "message": "フレーム高さ(px):" },
+  "split_btn": { "message": "分割して保存" },
+  "start_anim_btn": { "message": "再生開始" },
+  "start_anim_status": { "message": "アニメーションを再生しました" }
+}
